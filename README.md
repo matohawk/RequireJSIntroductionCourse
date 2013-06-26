@@ -9,7 +9,7 @@ A small introduction to RequireJS, each branch correspond to a level
 
 ## Plan
 
-**1. Very Brief history of web front-end architecture
+**1. Very Brief history of web front-end architecture**
 
    1.1 (1) Web project architecture, the prehistory [chap1.1]()
 
