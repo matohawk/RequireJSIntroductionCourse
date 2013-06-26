@@ -1,0 +1,21 @@
+{
+    "name": "RequireJSIntroductionCourse",
+    "version": "0.0.1",
+    "private": true,
+    "directories": {
+        "css": "css",
+        "scss": "css",
+        "scssBootstrap": "components/bootstrap-sass/lib",
+        "scssLib": "main/css/lib",
+        "js": "js",
+        "components": "components",
+        "build": "build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/matohawk/RequireJSIntroductionCourse.git"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.1"
+    }
+}

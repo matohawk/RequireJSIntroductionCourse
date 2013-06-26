@@ -1,40 +1,45 @@
-![msysgit](http://gruntjs.com/img/grunt-logo.png)
+![msysgit](http://requirejs.org/i/logo.png)
 
 ----
 #RequireJS Introduction Course
 
 A small introduction to RequireJS, each branch correspond to a level
 
-It will try to answer of these questions :
+## Plan
 
-## 1. Plan
+**1. Very Brief history of web front-end architecture
 
-**1. Plan [v1](https://github.com/matohawk/GruntIntroductionCourse/tree/v1)**
+   1.1 (1) Web project architecture, the prehistory [v2.1.1](https://github.com/matohawk/GruntIntroductionCourse/tree/v2.1)
 
-**2. What is Grunt?**
+   1.2 (2) Web project architecture, the post-modernism [v2.1.2](https://github.com/matohawk/GruntIntroductionCourse/tree/v2.2)
 
-   2.1 Task Runner [v2.1](https://github.com/matohawk/GruntIntroductionCourse/tree/v2.1)
-      
-   2.1.1 First step in web project [v2.1.1](https://github.com/matohawk/GruntIntroductionCourse/tree/v2.1.1)
-      
-   2.1.2 Today complex web project [v2.1.2](https://github.com/matohawk/GruntIntroductionCourse/tree/v2.1.2)
+**2. And RequireJS arrived?**
 
-   2.2 Oriented Front-end web [v2.2](https://github.com/matohawk/GruntIntroductionCourse/tree/v2.2)
+   2.1 (3) Javascript File and Module loader [v2.1](https://github.com/matohawk/GruntIntroductionCourse/tree/v2.1)
 
-   2.3 Why Grunt? [v2.3](https://github.com/matohawk/GruntIntroductionCourse/tree/v2.3)
+   --- Move to the chapter 2.1 ---
+   2.1.1 Load Javascript asynchronously [v2.3.2](https://github.com/matohawk/GruntIntroductionCourse/tree/v2.3.2)
 
-**3. What is Node?**
+   2.1.2 Load with dependency management [v2.3.2](https://github.com/matohawk/GruntIntroductionCourse/tree/v2.3.2)
 
-   3.1 Server Side Javascript [v3.1](https://github.com/matohawk/GruntIntroductionCourse/tree/v3.1)
+   2.1.3 Help to structure your code [v2.3.1](https://github.com/matohawk/GruntIntroductionCourse/tree/v3.2.1)
 
-   3.2 Installation and Grunt module installation [v3.2](https://github.com/matohawk/GruntIntroductionCourse/tree/v3.2)
+   2.2 Use Web Modules and in particular the Asynchronous Definition (AMD) (4)
 
-**4. Use case**
+        --- Move to the chapter 2.2 ---
 
-   4.1 I want to concatenate my files [v4.1](https://github.com/matohawk/GruntIntroductionCourse/tree/v4.1)
+        What is web module?    http://requirejs.org/docs/why.html
 
-   4.2 I want to compile my SCSS files [v4.2](https://github.com/matohawk/GruntIntroductionCourse/tree/v4.2)
+        Problems : Code complexity, web app, separate js files, assembly gets harder
 
-   4.3 I want to watch some file type and when there is changes launch a compilation [v4.3](https://github.com/matohawk/GruntIntroductionCourse/tree/v4.3)
+        Solution : include, import, require - optimization tools - ability to load nested dependencies
 
-   4.4 I want to have different compilation for each environment, dev, qa, prod [v4.4](https://github.com/matohawk/GruntIntroductionCourse/tree/v4.4)
+        RequireJS choose AMD module - http://requirejs.org/docs/whyamd.html#amd
+
+   2.3 (5) Optimize your JS code base [v2.3.2](https://github.com/matohawk/GruntIntroductionCourse/tree/v3.2.2)
+
+        Use the task runner Grunt and requireJS Server Side r.js, optimize and concatenate JS files with dependency management
+
+        http://fr.slideshare.net/xMartin12/asynchronous-module-definition-amd
+
+        http://requirejs.org/docs/api.html#config-shim

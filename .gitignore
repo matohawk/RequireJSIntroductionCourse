@@ -1,0 +1,8 @@
+.DS_Store
+# IDEs ignores
+.idea/
+.bin/
+# sass cache ignore
+.sass-cache/
+node_modules/
+.temp/
