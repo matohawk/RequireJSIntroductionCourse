@@ -13,4 +13,4 @@
 
    * Help to structure your code
     
-   see code example
+   see code example run node server.js to tes this example
