@@ -7,4 +7,4 @@ angular.module('requireJSIntroductionCourse').controller('mainController', ['$sc
         return route === $location.path();
     }
 
-}]);;
+}]);

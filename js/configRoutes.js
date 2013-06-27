@@ -3,7 +3,7 @@ angular.module('requireJSIntroductionCourse').config(['$routeProvider', function
     $routeProvider
         .when('/home',
         {
-            templateUrl:    '../views/home.html'
+            templateUrl:    '/views/home.html'
         })
         .when('/toy1',
         {

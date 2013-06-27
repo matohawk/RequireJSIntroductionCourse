@@ -16,6 +16,5 @@
     "url": "https://github.com/matohawk/RequireJSIntroductionCourse.git"
   },
   "devDependencies": {
-    "grunt": "~0.4.1"
   }
 }
