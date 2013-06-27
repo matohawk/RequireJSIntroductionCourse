@@ -13,5 +13,5 @@
 
    * Some HTML files for each page comes from the server
 
-   see code example
+   see code example, for this example the html files is hardcoded it's not come from a server
 
