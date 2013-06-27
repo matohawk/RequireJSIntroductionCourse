@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="requireJSIntroductionCourse">
 <head>
     <title>Minimal Website</title>
     <link href="./css/gumby.css" rel="stylesheet">
 </head>
 <body class="no-touch">
-    <nav class="pretty navbar row">
+    <nav class="pretty navbar row" ng-controller="mainController">
        <ul>
-           <li class="is-active"><a href="./index.html">Home</a></li>
-           <li><a href="./pages/Toy1.html">Toy1</a></li>
-           <li><a href="./pages/Toy2.html">Toy2</a></li>
+           <li ng-class="{isActive:isActive('/home')}"><a href="#/home">Home</a></li>
+           <li ng-class="{isActive:isActive('/toy1')}"><a href="#/toy1">Toy1</a></li>
+           <li ng-class="{isActive:isActive('/toy2')}"><a href="#/toy2">Toy2</a></li>
        </ul>
     </nav>
 
-    <div class="row">
-
-        <h1>Welcome to the demo site for RequireJS Course</h1>
-        <p>Click on the nav to see the other part of this Website</p>
+    <div ng-view>
 
     </div>
     
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="/components/angularjs/angular.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/configRoutes.js"></script>    
+    <script src="/js/toy1Controller.js"></script>
+    <script src="/js/toy2Controller.js"></script>
     
 </body>
 </html>
