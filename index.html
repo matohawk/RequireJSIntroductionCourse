@@ -1,24 +1,22 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Minimal Website</title>
-    <link href="./css/gumby.css" rel="stylesheet">
-    <script src="components/angular-loader/angular-loader.min.js"></script>
-</head>
-<body class="no-touch">
-    <nav class="pretty navbar row" ng-controller="mainController">
-       <ul>
-           <li ng-class="{isActive:isActive('/home')}"><a href="#/home">Home</a></li>
-           <li ng-class="{isActive:isActive('/toy1')}"><a href="#/toy1">Toy1</a></li>
-           <li ng-class="{isActive:isActive('/toy2')}"><a href="#/toy2">Toy2</a></li>
-       </ul>
-    </nav>
-
-    <div ng-view>
-
-    </div>
+<!doctype html>
+<html lang="en" ng-app>
+    <head>
+		<title>Angular-RequireJS sample app</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script data-main="app/js/main" src="app/js/lib/require/require.js"></script>
+		<link rel="stylesheet" type="text/css" media="all" href="css/gumby.css" />
+	</head>
+    <body class="no-touch">
+        
+        <nav class="pretty navbar row">
+           <ul>
+               <li><a href="#/home">Home</a></li>
+               <li><a href="#/toy1">Toy1</a></li>
+               <li><a href="#/toy2">Toy2</a></li>
+           </ul>
+        </nav>
     
-    <script data-main="rApp" src="components/requirejs/require.js"></script>
-    
-</body>
+        <div ng-view></div>
+        
+    </body>
 </html>
