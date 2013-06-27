@@ -5,12 +5,8 @@
 
 **2. And RequireJS arrived?**
 
-   2.1 Javascript File and Module loader
+   2.3 Optimize your JS code base
 
-   * Load Javascript asynchronously
-
-   * Load with dependency management
-
-   * Help to structure your code
+   Use the task runner Grunt and requireJS Server Side r.js, optimize and concatenate JS files with dependency management
     
-   see code example
+   see code example, run grunt + node server.js in a command line tool to test this example

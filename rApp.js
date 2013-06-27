@@ -27,12 +27,4 @@ require.config({
     }
 });
 
-require(['angular', 'requireJSIntroductionCourse', 'js/configRoutes', 'js/toy1Controller', 'js/toy2Controller'],
-
-    function(){
-
-        angular.bootstrap(document, ['requireJSIntroductionCourse']);
-
-    }
-
-);
+require(['angular', 'requireJSIntroductionCourse', 'js/configRoutes', 'js/toy1Controller', 'js/toy2Controller']);
