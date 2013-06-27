@@ -15,4 +15,4 @@
 
   * [RequireJS choose AMD module](http://requirejs.org/docs/whyamd.html#amd)
   
-  see code example
+  see code example run node server.js to test this example
