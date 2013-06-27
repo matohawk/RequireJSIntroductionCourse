@@ -1,12 +1,9 @@
 {
     "name": "RequireJSIntroductionCourse",
     "version": "0.0.1",
-    "private": true,
+    "private": false,
     "directories": {
         "css": "css",
-        "scss": "css",
-        "scssBootstrap": "components/bootstrap-sass/lib",
-        "scssLib": "main/css/lib",
         "js": "js",
         "components": "components",
         "build": "build"
