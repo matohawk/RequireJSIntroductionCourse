@@ -61,6 +61,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-requirejs');
 
     grunt.registerTask('default', ['requirejs:dev']);
-    grunt.registerTask('default', ['requirejs:prod']);
+    grunt.registerTask('prod', ['requirejs:prod']);
 
 };
